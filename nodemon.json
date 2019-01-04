@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_USER": "manohar",
+        "MONGO_PASSWORD": "Z26bsksum15Nvsa0",
+        "MONGO_DB": "graphqa_db"
+    }
+}
