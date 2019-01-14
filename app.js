@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const app = express();
 const graphQlSchema = require("./graphql/schema");
 const graphQlResolvers = require("./graphql/resolvers");
-const isAuth = require("./graphql/middleware/is-auth");
+const isAuth = require("./middleware/is-auth");
 
 app.use(bodyParser.json());
 
