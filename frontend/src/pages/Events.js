@@ -176,6 +176,7 @@ class EventsPage extends Component {
       })
       .then(resData => {
         console.log(resData);
+        this.setState({ selectedEvent: null });
       })
       .catch(err => {
         console.log(err);
