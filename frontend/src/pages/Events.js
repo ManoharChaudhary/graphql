@@ -181,7 +181,7 @@ class EventsPage extends Component {
         console.log(err);
       });
   };
-  componentWillMount() {
+  componentWillUnmount() {
     this.isActive = false;
   }
   render() {
